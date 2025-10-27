@@ -11,6 +11,13 @@ public class Author
     #endregion
 
     #region Construtor
+    public Author(int id, string email, string passwordHash, string blogTitle)
+    {
+        Id = id;
+        Email = email;
+        PasswordHash = passwordHash;
+        BlogTitle = blogTitle;
+    }
     public Author(string email, string passwordHash, string blogTitle)
     {
         Email = email;

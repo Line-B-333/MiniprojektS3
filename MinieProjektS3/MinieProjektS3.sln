@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogLibrary", "BlogLibrary\BlogLibrary.csproj", "{7260966C-C73F-4650-A758-5D237838156E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogDAO.Library", "BlogLibrary\BlogDAO.Library.csproj", "{7260966C-C73F-4650-A758-5D237838156E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSharp.TestProject", "BlogSharp.TestProject\BlogSharp.TestProject.csproj", "{4C17AE49-F851-455C-AE67-2BD6503AD61A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7260966C-C73F-4650-A758-5D237838156E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7260966C-C73F-4650-A758-5D237838156E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7260966C-C73F-4650-A758-5D237838156E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C17AE49-F851-455C-AE67-2BD6503AD61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C17AE49-F851-455C-AE67-2BD6503AD61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C17AE49-F851-455C-AE67-2BD6503AD61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C17AE49-F851-455C-AE67-2BD6503AD61A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
