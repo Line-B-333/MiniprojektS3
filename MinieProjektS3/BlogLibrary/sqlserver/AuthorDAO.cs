@@ -35,7 +35,8 @@ public class AuthorDAO : BaseDAO, IAuthorDAO
 
         var query = "SELECT * FROM Author";
         using var connection = CreateConnection();
-        return connection.Query<Author>(query).ToList();
+        //Dapper extension method, its a hidden ability, where dapper maps the result to the Author class
+        return connection.Query<Author>(query).ToList(); 
     }
 
     public Author? GetOneAuthor(int id)
